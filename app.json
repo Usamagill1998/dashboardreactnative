@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "perfect",
+    "slug": "plan",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    
+    "ios": {
+      "bundleIdentifier": "com.EasyRentSalee.EasyRentSalee",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.EasyRentSalee.EasyRentSalee"
+    },
+    "packagerOpts": {
+      "nonPersistent": true
+    },
+    "description": ""
+  }
+  }
